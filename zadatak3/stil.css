@@ -1,0 +1,16 @@
+#naslov {
+	color: darkblue;
+	font-family: Arial, sans-serif;
+}
+
+.ponuda {
+	padding: 15px;
+	margin-bottom: 20px;
+	font-family: Arial, sans-serif;
+	border: 1px solid gray;
+}
+
+.preporucena {
+	background: lightyellow;
+	border-color: orange;
+}

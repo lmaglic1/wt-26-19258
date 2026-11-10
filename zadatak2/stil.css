@@ -1,0 +1,26 @@
+#meni {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#meni a {
+	display: block; /* za inline verziju obrisati ovu liniju */
+	width: 200px;
+	color: white;
+	background: #336;
+	padding: 10px;
+	border: 2px solid #336;
+	text-decoration: none;
+}
+
+/* da odjeljci budu dovoljno visoki da se vidi skok na klik */
+div {
+	min-height: 100vh;
+}
+
+#meni a:hover {
+	color: #336;
+	background: #fc3;
+	border-color: #fc3;
+}
