@@ -1,0 +1,19 @@
+table {
+	border-collapse: collapse;
+	font-family: sans-serif;
+}
+
+th, td {
+	border: 1px solid black;
+	padding: 10px;
+	text-align: center;
+}
+
+th {
+	background: #CCCCCC;
+	font-weight: bold;
+}
+
+.paran td {
+	background: #FFF2CC;
+}
