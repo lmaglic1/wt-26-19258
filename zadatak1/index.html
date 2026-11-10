@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+    <meta charset="UTF-8">
+    <title>Radionica programiranja</title>
+</head>
+<body>
+    <h1>Radionica programiranja za srednjoškolce</h1>
+
+    <h2>O događaju</h2>
+    <p>Besplatna radionica na kojoj će srednjoškolci napraviti svoju prvu web stranicu. Nije potrebno predznanje.</p>
+    <p>Radionica se održava 5. decembra 2026. od 10:00 do 15:00 sati na Elektrotehničkom fakultetu u Sarajevu.</p>
+    <p><img src="https://framerusercontent.com/images/owuqqgVYr1bamtGsTnGQCaJjxpM.jpg" alt="Učenici za računarima na radionici programiranja" width="400"></p>
+
+    <h2>Prijava</h2>
+    <p>Prijavite se do 28. novembra 2026. ovako:</p>
+    <ul>
+        <li>popunite formu ispod,</li>
+        <li>sačekajte potvrdu na e-mail.</li>
+    </ul>
+    <p>Više informacija: <a href="https://etf.unsa.ba">etf.unsa.ba</a></p>
+
+    <form>
+        <label for="ime">Ime i prezime:</label>
+        <input type="text" id="ime" name="ime">
+        <br>
+
+        <p>Razred:</p>
+        <input type="radio" id="prvi" name="razred" value="1">
+        <label for="prvi">Prvi</label>
+        <input type="radio" id="drugi" name="razred" value="2">
+        <label for="drugi">Drugi</label>
+        <input type="radio" id="treci" name="razred" value="3">
+        <label for="treci">Treći</label>
+        <input type="radio" id="cetvrti" name="razred" value="4">
+        <label for="cetvrti">Četvrti</label>
+        <br>
+
+        <label for="skola">Škola:</label>
+        <select id="skola" name="skola">
+            <option value="gimnazija">Gimnazija</option>
+            <option value="tehnicka">Tehnička škola</option>
+            <option value="ostalo">Ostalo</option>
+        </select>
+        <br>
+
+        <input type="checkbox" id="laptop" name="laptop">
+        <label for="laptop">Donijet ću svoj laptop</label>
+        <br>
+
+        <button type="submit">Prijavi se</button>
+    </form>
+</body>
+</html>

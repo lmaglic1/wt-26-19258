@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+    <meta charset="UTF-8">
+    <title>Narudžba pizze</title>
+</head>
+<body>
+    <h1>Narudžba pizze</h1>
+
+    <form>
+        <label for="ime">Ime i prezime:</label>
+        <input type="text" id="ime" name="ime">
+        <br>
+
+        <p>Veličina pizze:</p>
+        <input type="radio" id="mala" name="velicina" value="mala">
+        <label for="mala">Mala</label>
+        <input type="radio" id="srednja" name="velicina" value="srednja">
+        <label for="srednja">Srednja</label>
+        <input type="radio" id="velika" name="velicina" value="velika">
+        <label for="velika">Velika</label>
+
+        <p>Dodaci:</p>
+        <input type="checkbox" id="sir" name="dodaci" value="sir">
+        <label for="sir">Sir</label>
+        <input type="checkbox" id="gljive" name="dodaci" value="gljive">
+        <label for="gljive">Gljive</label>
+        <input type="checkbox" id="masline" name="dodaci" value="masline">
+        <label for="masline">Masline</label>
+        <input type="checkbox" id="sunka" name="dodaci" value="sunka">
+        <label for="sunka">Šunka</label>
+        <br><br>
+
+        <label for="placanje">Način plaćanja:</label>
+        <select id="placanje" name="placanje">
+            <option value="gotovina">Gotovina</option>
+            <option value="kartica">Kartica</option>
+        </select>
+        <br><br>
+
+        <button type="submit">Naruči</button>
+    </form>
+</body>
+</html>
