@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+<meta charset="UTF-8">
+<title>Evidencija troškova</title>
+<link rel="stylesheet" type="text/css" href="stil.css">
+</head>
+<body>
+<h1>Evidencija troškova</h1>
+
+<form id="forma">
+	<label>Naziv: <input type="text" id="naziv"></label>
+	<label>Iznos (KM): <input type="text" id="iznos"></label>
+	<button type="submit">Dodaj</button>
+	<p id="greska"></p>
+</form>
+
+<table>
+	<thead>
+		<tr><th>Naziv</th><th>Iznos (KM)</th></tr>
+	</thead>
+	<tbody id="stavke">
+		<tr><td>Ručak</td><td>12</td></tr>
+		<tr><td>Autobus</td><td>2</td></tr>
+		<tr><td>Knjiga</td><td>25</td></tr>
+	</tbody>
+	<tfoot>
+		<tr><th id="broj-stavki"></th><th id="zbir"></th></tr>
+	</tfoot>
+</table>
+
+<script src="skripta.js"></script>
+</body>
+</html>

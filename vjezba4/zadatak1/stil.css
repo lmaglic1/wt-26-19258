@@ -1,0 +1,13 @@
+li {
+	margin-bottom: 8px;
+}
+
+.zavrsena .tekst {
+	text-decoration: line-through;
+	color: gray;
+}
+
+.zavrsena .status {
+	color: green;
+	font-weight: bold;
+}

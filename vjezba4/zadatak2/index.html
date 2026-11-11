@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+<meta charset="UTF-8">
+<title>Obavijest</title>
+<link rel="stylesheet" type="text/css" href="stil.css">
+</head>
+<body>
+<h1>Nova obavijest</h1>
+
+<form id="forma">
+	<p><label>Naslov: <input type="text" id="naslov"></label></p>
+	<p><label>Tekst obavijesti:<br><textarea id="tekst" rows="4" cols="40"></textarea></label></p>
+	<p>
+		Kategorija:
+		<label><input type="radio" name="kategorija" value="Informacija" checked> Informacija</label>
+		<label><input type="radio" name="kategorija" value="Hitno"> Hitno</label>
+	</p>
+	<p id="greska"></p>
+	<button type="submit">Pregled</button>
+	<button type="reset">Vrati u početno stanje</button>
+</form>
+
+<h2>Pregled</h2>
+<div id="pregled" class="informacija">
+	<p id="pregled-kategorija"></p>
+	<h3 id="pregled-naslov"></h3>
+	<p id="pregled-tekst"></p>
+</div>
+
+<script src="skripta.js"></script>
+</body>
+</html>

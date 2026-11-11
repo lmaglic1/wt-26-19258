@@ -1,0 +1,18 @@
+#greska {
+	color: red;
+}
+
+#pregled {
+	padding: 10px;
+	border: 2px solid;
+}
+
+#pregled.informacija {
+	border-color: blue;
+	background: #e6f0ff;
+}
+
+#pregled.hitno {
+	border-color: red;
+	background: #ffe6e6;
+}
